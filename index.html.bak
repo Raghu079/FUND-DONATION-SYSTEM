@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fund donation system</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="index.html"><b>home</b></a>
+        <a href="about.html"><b>about</b></a>
+        <a href="Global_Chart.html"><b>global chat</b></a>
+        <a href="bookings.html"><b>donate</b></a>
+        <a href="review.html"><b>upload</b></a>
+        <a href="contact.html"><b>contact</b></a>
+        <a href="blogs.html"><b>review</b></a>
+    </nav>
+
+    <div class="icons" style="margin-right:-80px">
+        <div class="fas fa-search" id="search-btn"></div>
+       
+        <div class="fas fa-bars" id="menu-btn"></div>
+     </div>
+	<!--login form-->
+		<!--<h2>Modal Login Form</h2>-->
+    <a href="login.html"><button class="button1" target="blank" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></a>
+  <!--login form
+    <div id="id01" class="modal">
+  
+        <form  class="form">
+            <div class="animated-input">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="check">
+                <div>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="disc"></label>
+                    <label for="check" class="remember">Remember</label>
+                </div>
+                <p class="forget"><a href="#">Forget Password ?</a></p>
+            </div>
+        </form>
+    </div>
+	<!--End of login-->
+	
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+   
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>HELPING IS A CHAIN</h3>
+        <p>Do whatever you want but don't hurt others.</p>
+        <a href="#" class="btn">spread positivity</a>
+    </div>
+
+</section>
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer" style="color:white">
+  <div class="footer__addr">
+    <h1 class="footer__logo">Important</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      address:<br>Kariyamanikam Road, Samayapuram,
+Trichy – 621112.<br>Phone: 0431 – 2670799<br>
+          
+      <a class="footer__btn" href="mailto:example@gmail.com" style="margin-left: 163px;">Email Us</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
+	  <br>
+
+      <ul class="nav__ul">
+        <li>
+          <b><a href="#">Instagram</a></b>
+        </li>
+
+        <li>
+          <b><a href="#">Facebook</a></b>
+        </li>
+            
+        <li>
+          <b><a href="#">Twitter</a></b>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav_item nav_item--extra">
+      <h2 class="nav__title">Latest Updates</h2>
+      
+      <ul class="nav_ul nav_ul--extra">
+        <li>
+          <a href="#"></a>
+        </li>
+        
+        <li>
+          <a href="#">----</a>
+        </li>
+        
+        <li>
+          <a href="#">----</a>
+        </li>
+        
+        <li>
+          <a href="#">----</a>
+        </li>
+        
+        <li>
+          <a href="#">-----</a>
+        </li>
+        
+        <li>
+          <a href="#">----</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+        
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <hr style="color: white;" width="10px">
+</section>
+  <!-- copyright area -->
+<footer class="footer" style="color:white">
+<div style="color:white;">
+            <div>
+                 K.Ramakrishnan College of Technology &copy; 2022. All Rights Reserved.
+            </div>
+            <div>
+                <span >
+                Raghunath S P || VeluKishore G || Vijay M</span>
+            </div>
+</div>
+</footer>
+
+<!-- END CONTENT AREA -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
